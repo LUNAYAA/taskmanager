@@ -1,0 +1,56 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    color: #333;
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: none;
+}
+
+.card-body {
+    padding: 40px;
+}
+
+.custom-input {
+    border-radius: 0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.custom-button {
+    background-color: #ff6f61;
+    color: white;
+    border-radius: 0;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #ff5a4d;
+}
+
+.register-link {
+    color: #ff6f61;
+}
+
+.register-link:hover {
+    text-decoration: none;
+    color: #ff5a4d;
+}
+
+.text-center {
+    text-align: center;
+}
